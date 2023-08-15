@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Class4 {
+public class Class4 extends Shape{
+    public Class4(int side1, int side2, int side3, int side4) {
+        super(side1, side2, side3, side4);
+    }
+
+    @Override
+    public double getPerimeter() {
+        int P;
+        return P = (getSide1()+getSide2()+getSide3()+getSide4()) ;
+    }
 }
